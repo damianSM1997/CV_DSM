@@ -285,8 +285,9 @@ ion-icon {
 }
 
 .testimonial-user img{
-  border-radius: 50%;
-  max-width: 50px;
+
+  max-width: 500px;
+  max-height: 500px;
   font-size: 20px;
 }
 
@@ -327,7 +328,13 @@ ion-icon {
         font-size: 20px;
 
  }
+ section{
+padding: 0px;
+ }
 
+
+
+ }
 
 @media (min-width: 576px) and (max-width: 767.98px) { }
 
