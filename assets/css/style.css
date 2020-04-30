@@ -1,3 +1,5 @@
+<ion-icon  src = "/path/to/external/file.svg" > </ion-icon >
+< ion-icon  src = "/path/to/external/file.svg" > </ ion-icon >
 body{
   font-family: 'Titillium Web', sans-serif;
 }
@@ -98,7 +100,7 @@ section{
 }
 
 ion-icon {
-  color: blak;
+
   font-size: 50px;
   margin-left: 5px;
   margin-top: 1px;
@@ -314,6 +316,10 @@ ion-icon {
   padding: 10px 15px;
 }
 
+#footer ion-icon p {
+  color: blue;
+}
+
 
 @media (max-width: 575.98px) {
 
@@ -331,7 +337,10 @@ ion-icon {
  section{
 padding: 0px;
  }
-
+ .logo-brand{
+   min-width: 60px;
+   max-width: 80px;
+ }
 
 
  }
